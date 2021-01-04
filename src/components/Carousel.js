@@ -26,7 +26,7 @@ class Carousel extends React.Component{
                     title: 'Portfolio Dev',
                     subTitle: 'Simon Cen portfolio website. This website you are currently at is built with React, react-spring, react-boostrap, along with ExpressJs and NodeJs.',
                     imgSrc: simoncen,
-                    link: 'https://www.youtube.com',
+                    link: 'http://simoncen.ca',
                     selected: false
                 },
                 {
