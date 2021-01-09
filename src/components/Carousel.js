@@ -36,6 +36,14 @@ class Carousel extends React.Component{
                     imgSrc: reversi,
                     link: 'https://github.com/simoncen/Reversi-Game',
                     selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Reversi Game',
+                    subTitle: "Fun terminal-played game built with C language. Reversi Game is a game that allows users to choose between black and white chess as users can flip over the opponent's chess if he/she does it right.",
+                    imgSrc: reversi,
+                    link: 'https://github.com/simoncen/Reversi-Game',
+                    selected: false
                 }
             ]
         }
