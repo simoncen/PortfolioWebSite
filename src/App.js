@@ -55,7 +55,7 @@ class App extends React.Component {
                 {/* In React Router, Link is for navigation, Route is for route matchers*/}
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/About">About</Link>
-                <Link className="nav-link" to="/Contact">Contact</Link>
+                <Link className="nav-link" to="/Contact">Contact</Link> {/*nav-link is a bootstrap thing */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>

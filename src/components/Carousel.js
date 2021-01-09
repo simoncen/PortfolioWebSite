@@ -3,6 +3,7 @@ import React from 'react';
 import todolist from '../assets/images/todolist.png';
 import simoncen from '../assets/images/simoncen.jpg';
 import reversi from '../assets/images/RSGicon.png';
+import covid from '../assets/images/covid.png';
 
 import Card from './Card';
 import Container from 'react-bootstrap/esm/Container';
@@ -26,13 +27,21 @@ class Carousel extends React.Component{
                     title: 'Portfolio Dev',
                     subTitle: 'Simon Cen portfolio website. This website you are currently at is built with React, react-spring, react-boostrap, along with ExpressJs and NodeJs.',
                     imgSrc: simoncen,
-                    link: 'https://www.youtube.com',
+                    link: 'http://www.simoncen.ca',
                     selected: false
                 },
                 {
                     id: 2,
+                    title: 'COVID-19 Tracker',
+                    subTitle: "COVID-19 Tracker is a front-end project that shows real-time data of the infected, death, and recovered cases of the coronavirus. It is built with React, Material UI, and Chart.js",
+                    imgSrc: covid,
+                    link: 'http://cvirustracker.tech',
+                    selected: false
+                },
+                {
+                    id: 3,
                     title: 'Reversi Game',
-                    subTitle: "Fun terminal-played game built with C languange. Reversi Game is a game that allows user to choose between black and white chess as users can flip over the opponent's chess if he/she does it right.",
+                    subTitle: "Fun terminal-played game built with C language. Reversi Game is a game that allows users to choose between black and white chess as users can flip over the opponent's chess if he/she does it right.",
                     imgSrc: reversi,
                     link: 'https://github.com/simoncen/Reversi-Game',
                     selected: false

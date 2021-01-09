@@ -1,6 +1,13 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Personal Portfolio Website Description
+
+The website is owned by jinlin simon cen(me).
+
+- Visitors can checkout the project and work experience of simon cen.
+- Visitors can make contact with simon cen on the website.
+- Visitors can learn more about simon cen on the About page.
+- Website URL: http://www.simoncen.ca
 
 ## Available Scripts
 
