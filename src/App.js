@@ -10,13 +10,13 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 
-import simoncenpic from './assets/images/documents/Simon_Cen_Resume_v1.pdf'
+import simoncenpic from './assets/images/documents/JLCResumeFSD.pdf';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: 'Simon J. Cen',
+      title: 'Simon Cen',
       headerLinks: [ // navbar
         { title: 'Home', path: '/'},
         { title: 'About', path: '/about'},
@@ -24,7 +24,7 @@ class App extends React.Component {
       ],
       // top level info for each page: home, about, contact
       home: { 
-        title: 'This is Simon Cen.',
+        title: 'This is Simon J. Cen',
         subTitle: 'Developer from Toronto',
         text: 'Check out my work and project experience below by clicking on the cards:'
       },
