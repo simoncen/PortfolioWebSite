@@ -36,7 +36,7 @@ class Carousel extends React.Component{
                     title: 'COVID-19 Tracker',
                     subTitle: "COVID-19 Tracker is a front-end project that shows real-time data of the infected, death, and recovered cases of the coronavirus. It is built with React, Material UI, and Chart.js",
                     imgSrc: covid,
-                    link: 'http://cvirustracker.tech',
+                    link: 'https://github.com/simoncen/Covid-19-Tracker',
                     selected: false
                 },
                 {
