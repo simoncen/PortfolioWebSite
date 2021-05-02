@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col';
 import ins from '../assets/images/insIcon.png';
 import github from '../assets/images/githubIcon.png';
 import linkedin from '../assets/images/linkedinIcon.png';
+import wechat from '../assets/images/wechat.png';
+import wechatqr from '../assets/images/wechatqr.png';
 
 function Footer(){
     return(
@@ -31,6 +33,12 @@ function Footer(){
                     <Col className='p-0 d-flex justify-content-center'>
                         <a href="https://www.linkedin.com/in/simon-jinlin-cen/" target="_blank" rel="noreferrer">
                             <img src={linkedin} alt="linkedin" width="30"/>
+                        </a>
+                    </Col>
+
+                    <Col className='p-0 d-flex justify-content-center'>
+                        <a href={wechatqr} target="_blank" rel="noreferrer">
+                            <img src={wechat} alt="linkedin" width="35"/>
                         </a>
                     </Col>
 
