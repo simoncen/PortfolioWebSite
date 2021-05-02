@@ -4,8 +4,12 @@ import todolist from '../assets/images/todolist.png';
 import simoncen from '../assets/images/simoncen.jpg';
 import reversi from '../assets/images/RSGicon.png';
 import covid from '../assets/images/covid.png';
+<<<<<<< HEAD
 import easymap from '../assets/images/easyMap.png';
 import groundhog from '../assets/images/groundhog.png';
+=======
+
+>>>>>>> da9d9f731079a085198448cb755471d3be826a71
 
 import Card from './Card';
 import Container from 'react-bootstrap/esm/Container';
