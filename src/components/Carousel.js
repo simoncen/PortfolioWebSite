@@ -27,8 +27,8 @@ class Carousel extends React.Component{
                 },
                 {
                     id: 1,
-                    title: 'Microsoft SDE Intern',
-                    subTitle: 'Microsoft Software Development Engineer Intern at Guangzhou, China',
+                    title: 'Microsoft Parttime Assistant',
+                    subTitle: 'Microsoft Cloud Computing and AI Parttime Assistant at Guangzhou, China',
                     imgSrc: microsoft,
                     link: 'http://www.microsoft.com',
                     selected: false
