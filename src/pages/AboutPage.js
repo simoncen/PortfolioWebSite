@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 
-import simoncenpic from '../assets/images/documents/JLCResumeFD1.pdf';
+import simoncenpic from '../assets/images/documents/JLCResumeFSD1.pdf';
 import toronto from '../assets/images/toronto.png';
 
 // using function components because we don't need any states with the need of props
