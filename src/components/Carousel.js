@@ -22,7 +22,7 @@ class Carousel extends React.Component{
             items: [
                 {
                     id: 0,
-                    title: 'Simon Cen',
+                    title: 'Simon Jinlin Cen',
                     subTitle: 'Software Engineer, Entrepreneur, Investor.',
                     imgSrc: simoncen,
                     link: 'http://www.simoncen.ca',
@@ -30,8 +30,8 @@ class Carousel extends React.Component{
                 },
                 {
                     id: 1,
-                    title: 'Microsoft Parttime Assistant',
-                    subTitle: 'Microsoft Cloud Computing and AI Parttime Assistant in Guangzhou, China.',
+                    title: 'Ex-Microsoft Part-time Assistant',
+                    subTitle: 'Microsoft Cloud Computing and AI Part-time Assistant in Guangzhou, China.',
                     imgSrc: microsoft,
                     link: 'http://www.microsoft.com',
                     selected: false
