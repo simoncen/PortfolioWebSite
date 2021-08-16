@@ -7,6 +7,9 @@ import covid from '../assets/images/covid.png';
 import easymap from '../assets/images/easyMap.png';
 import groundhog from '../assets/images/groundhog.png';
 import microsoft from '../assets/images/microsoft.png';
+import startupweekend from '../assets/images/startupweekend.png';
+import animeChat from '../assets/images/animeChat.png';
+import partnerVideoChat from '../assets/images/partnerVideoChat.png';
 
 import Card from './Card';
 import Container from 'react-bootstrap/esm/Container';
@@ -19,8 +22,8 @@ class Carousel extends React.Component{
             items: [
                 {
                     id: 0,
-                    title: 'Portfolio Dev',
-                    subTitle: 'Simon Cen portfolio website. This website you are currently at is built with React, react-spring, react-boostrap, along with ExpressJs and NodeJs.',
+                    title: 'Simon Cen',
+                    subTitle: 'Software Engineer, Entrepreneur, Investor.',
                     imgSrc: simoncen,
                     link: 'http://www.simoncen.ca',
                     selected: false
@@ -28,13 +31,21 @@ class Carousel extends React.Component{
                 {
                     id: 1,
                     title: 'Microsoft Parttime Assistant',
-                    subTitle: 'Microsoft Cloud Computing and AI Parttime Assistant at Guangzhou, China',
+                    subTitle: 'Microsoft Cloud Computing and AI Parttime Assistant in Guangzhou, China.',
                     imgSrc: microsoft,
                     link: 'http://www.microsoft.com',
                     selected: false
                 },
                 {
                     id: 2,
+                    title: 'Startup Weekend',
+                    subTitle: 'First Prize and Bussiness Model Prize winner in Startup Weekend(in partnership with Google for Startups) in Guangdong, China.',
+                    imgSrc: startupweekend,
+                    link: 'https://www.techstars.com/communities/startup-weekend',
+                    selected: false
+                },
+                {
+                    id: 3,
                     title: 'Todo List',
                     subTitle: 'Todo List is a Trello-like project management web app that allows users to organize their tasks after they log in to their individual account of Todo List. This app is made using the MERN stack.',
                     imgSrc: todolist,
@@ -42,7 +53,7 @@ class Carousel extends React.Component{
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: 'COVID-19 Tracker',
                     subTitle: "COVID-19 Tracker is a front-end project that shows real-time data of the infected, death, and recovered cases of the coronavirus. It is built with React, Material UI, and Chart.js",
                     imgSrc: covid,
@@ -50,7 +61,7 @@ class Carousel extends React.Component{
                     selected: false
                 },
                 {
-                    id: 4,
+                    id: 5,
                     title: 'easyMap',
                     subTitle: "easyMap is a Geographical Information System Mapping App that runs on Linux OS. Users can perform various tasks similar to Google Map on easyMap. The app is built using C++ gtk library.",
                     imgSrc: easymap,
@@ -58,7 +69,7 @@ class Carousel extends React.Component{
                     selected: false
                 },
                 {
-                    id: 5,
+                    id: 6,
                     title: 'Reversi Game',
                     subTitle: "Fun terminal-played game built with C language. Reversi Game is a game that allows users to choose between black and white chess as users can flip over the opponent's chess if he/she does it right.",
                     imgSrc: reversi,
@@ -66,11 +77,27 @@ class Carousel extends React.Component{
                     selected: false
                 },
                 {
-                    id: 6,
+                    id: 7,
                     title: 'Whack-A-Groundhog',
                     subTitle: "Groundhog whack game is a classic entertaining game written in C language that will help players enhance their reaction. It can be played on CPULator.",
                     imgSrc: groundhog,
                     link: 'https://github.com/simoncen/Whack-A-Groundhog1',
+                    selected: false
+                },
+                { 
+                    id: 8,
+                    title: 'Anime Chat App',
+                    subTitle: "Microsoft-Teams-like communication platform for users to text with each other. It is built using React and Chat Engine.",
+                    imgSrc: animeChat,
+                    link: 'https://anime-chat-app.netlify.app',
+                    selected: false
+                },
+                { 
+                    id: 9,
+                    title: 'Partner Video Chat',
+                    subTitle: "Easy-to-use video chatting platform built with React, Node.js, and Socket.io. Peer to peer connection is established using simple-peer.",
+                    imgSrc: partnerVideoChat,
+                    link: 'https://partner-video-chat.netlify.app',
                     selected: false
                 }
             ]

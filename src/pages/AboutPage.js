@@ -11,7 +11,7 @@ function AboutPage(props){
         <div>
             <Hero title={props.title}/>
             <Content>
-                <p>Hi there, my name is Simon. I am a Computer Engineering student from the University of Toronto and an ex-Microsoft Part-time Assistant. I am a full-stack developer who have experience in Azure, MERN Stack, Redux, Bootstrap, and MaterialUI. </p>
+                <p>Hi there, my name is Simon. I am a Computer Engineering student from the University of Toronto and an ex-Microsoft Part-time Assistant. I am a full-stack developer who have experience in Azure, MERN Stack, Socket.io, Bootstrap, and MaterialUI. </p>
                 <p>Coding is my passion. I write in many languages including Javascript, C/C++, Python, and Java. Cloud computing and AI are changing our lives. I hope to integrate my software development skills into these two areas. However, I am also very intrigued about team and business management. </p>
                 <p>My vision is to convert my skills to fascinating ideas with the most potential to live.</p>
                 <p>I deeply believe in the idea of 'Knowledge reshapes destiny'.  This not only applies to myself, but also to the people I could give an impact to. Therefore, I hope that one day, I could become an entrepeneur and accomplish my goals!</p>
