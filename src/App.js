@@ -10,7 +10,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 
-import simoncenpic from './assets/images/documents/JLCResumeFSD.pdf';
+import simoncenpic from './assets/images/documents/JinLin-Cen-SDE-Resume.pdf';
 
 class App extends React.Component {
   constructor(props) {
