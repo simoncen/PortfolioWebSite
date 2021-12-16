@@ -107,7 +107,7 @@ class Carousel extends React.Component{
                     title: 'Qanda.js Javascript Library',
                     subTitle: "Javascript front-end library for developers to create survey forms more easily.",
                     imgSrc: qandajs,
-                    link: 'https://qandajs.herokuapp.app',
+                    link: 'https://qandajs.herokuapp.com',
                     selected: false
                 },
                 { 
