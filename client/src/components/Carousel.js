@@ -49,7 +49,7 @@ class Carousel extends React.Component{
                     title: 'Todo List',
                     subTitle: 'Todo List is a Trello-like project management web app that allows users to organize their tasks after they log in to their individual account of Todo List. This app is made using the MERN stack.',
                     imgSrc: todolist,
-                    link: 'https://arcane-forest-91021.herokuapp.com/login',
+                    link: 'http://www.listnotes.me',
                     selected: false
                 },
                 {

@@ -4,8 +4,11 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "server.js",
   "scripts": {
+    "setup": "npm install && cd client && npm install && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build-run": "cd client && npm run build && cd .. && node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "jinlincen",
   "license": "ISC",
