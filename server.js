@@ -13,14 +13,18 @@ const cors = require('cors')
 
 app.use(express.static(path.join(__dirname, '/client/build')));
 
-app.get('/', (req, res) => {
-	res.sendFile(path.join(__dirname, '/client/build/index.html'))
-})
+// All routes other than above will go to index.html
+app.get("*", (req, res) => {
+    // check for page routes that we expect in the frontend to provide correct status code.
+    const goodPageRoutes = ["/", "/About", "/Contact"];
+    if (!goodPageRoutes.includes(req.url)) {
+        // if url not in expected page routes, set status to 404.
+        res.status(404);
+    }
 
-// Error codes
-app.get('/problem', (req, res) => {
-	res.status(500).send('There was a problem on the server')
-})
+    // send index.html
+    res.sendFile(path.join(__dirname, "/client/build/index.html"));
+});
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
