@@ -7,16 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simoncen/PortfolioWebSite.git"
-  },
   "author": "jinlincen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/simoncen/PortfolioWebSite/issues"
-  },
-  "homepage": "https://github.com/simoncen/PortfolioWebSite#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
