@@ -10,6 +10,8 @@ import microsoft from '../assets/images/microsoft.png';
 import startupweekend from '../assets/images/startupweekend.png';
 import animeChat from '../assets/images/animeChat.png';
 import partnerVideoChat from '../assets/images/partnerVideoChat.png';
+import qandajs from '../assets/images/qanda.png';
+import dogchat from '../assets/images/dogchat.png';
 
 import Card from './Card';
 import Container from 'react-bootstrap/esm/Container';
@@ -49,7 +51,7 @@ class Carousel extends React.Component{
                     title: 'Todo List',
                     subTitle: 'Todo List is a Trello-like project management web app that allows users to organize their tasks after they log in to their individual account of Todo List. This app is made using the MERN stack.',
                     imgSrc: todolist,
-                    link: 'http://www.listnotes.me',
+                    link: 'https://arcane-forest-91021.herokuapp.com/',
                     selected: false
                 },
                 {
@@ -98,6 +100,22 @@ class Carousel extends React.Component{
                     subTitle: "Easy-to-use video chatting platform built with React, Node.js, and Socket.io. Peer to peer connection is established using simple-peer.",
                     imgSrc: partnerVideoChat,
                     link: 'https://partner-video-chat.netlify.app',
+                    selected: false
+                },
+                { 
+                    id: 10,
+                    title: 'Qanda.js Javascript Library',
+                    subTitle: "Javascript front-end library for developers to create survey forms more easily.",
+                    imgSrc: qandajs,
+                    link: 'https://qandajs.herokuapp.app',
+                    selected: false
+                },
+                { 
+                    id: 11,
+                    title: 'Friends and Dogs',
+                    subTitle: "Friends-and-dogs web application allows users to discover local dog parks, vets, and pet stores, post questions to the forum, or sign up to become official dogwalkers. This app is made using the MERN stack.",
+                    imgSrc: dogchat,
+                    link: 'https://arcane-sea-44503.herokuapp.com/',
                     selected: false
                 }
             ]

@@ -3,7 +3,6 @@ import Hero from '../components/Hero';
 import Content from '../components/Content';
 
 import simoncenpic from '../assets/images/documents/JinLin-Cen-SDE-Resume.pdf';
-import toronto from '../assets/images/toronto.png';
 
 // using function components because we don't need any states with the need of props
 function AboutPage(props){
