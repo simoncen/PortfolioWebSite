@@ -1,15 +1,15 @@
 'use strict'
 
-const env = process.env.NODE_ENV // read the environment variable (will be 'production' in production mode)
+//const env = process.env.NODE_ENV // read the environment variable (will be 'production' in production mode)
 const express = require('express');
 console.log('Express Server')
 const app = express();
-require('dotenv').config()
+//require('dotenv').config()
 const path = require('path');
 
 // enable CORS if in development, for React local development server to connect to the web server.
 const cors = require('cors')
-if (env !== 'production') { app.use(cors()) }
+//if (env !== 'production') { app.use(cors()) }
 
 app.use(express.static(path.join(__dirname, '/client/build')));
 
