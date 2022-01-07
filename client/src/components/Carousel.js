@@ -12,7 +12,8 @@ import animeChat from '../assets/images/animeChat.png';
 import partnerVideoChat from '../assets/images/partnerVideoChat.png';
 import qandajs from '../assets/images/qanda.png';
 import dogchat from '../assets/images/dogchat.png';
-import coinsquare from '../assets/images/coinsquare.png'
+import coinsquare from '../assets/images/coinsquare.png';
+import ethtransc from '../assets/images/ethTransC.png';
 
 import Card from './Card';
 import Container from 'react-bootstrap/esm/Container';
@@ -125,6 +126,14 @@ class Carousel extends React.Component{
                     subTitle: "Friends-and-dogs web application allows users to discover local dog parks, vets, and pet stores, post questions to the forum, or sign up to become official dogwalkers. This app is made using the MERN stack.",
                     imgSrc: dogchat,
                     link: 'https://arcane-sea-44503.herokuapp.com/',
+                    selected: false
+                },
+                { 
+                    id: 13,
+                    title: 'ethTransC',
+                    subTitle: "Web3.0 blockchain application that allows user to transfer ethereum on the ropsten test network.",
+                    imgSrc: ethtransc,
+                    link: 'https://ethtransc.netlify.app/',
                     selected: false
                 }
             ]
